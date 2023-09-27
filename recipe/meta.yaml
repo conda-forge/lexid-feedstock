@@ -18,6 +18,7 @@ requirements:
   host:
     - pip
     - python
+    - lib3to6
   run:
     - python
     - typing
