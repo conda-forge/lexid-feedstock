@@ -11,13 +11,14 @@ source:
   sha256: 509a3a4cc926d3dbf22b203b18a4c66c25e6473fb7c0e0d30374533ac28bafe5
 
 build:
-  number: 6
+  number: 7
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
     - python
+    - lib3to6
   run:
     - python
     - typing
